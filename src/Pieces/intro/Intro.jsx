@@ -2,7 +2,8 @@
 import "./intro.scss"
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
-
+import gianni from './Gianni.png'
+import arrow from './downarrow.png'
 export default function Intro({menuOpen, setMenuOpen}) {
   const textRef = useRef();
   
@@ -20,7 +21,7 @@ export default function Intro({menuOpen, setMenuOpen}) {
     <div className="intro" id="intro">
       <div className="left">
         <div className={"imgContainer "+ (menuOpen && "active")}>
-          <img src="\assets\Gianni.png" alt=""/>
+          <img src={gianni} alt=""/>
         </div>
 
       </div>
@@ -31,7 +32,7 @@ export default function Intro({menuOpen, setMenuOpen}) {
           <h3><span ref={textRef} className={"Place_Holder "+ (menuOpen && "active")}></span></h3>
         </div>
         <a href="#portfolio">
-          <img src="public\assets\downarrow.png" alt=""/>
+          <img src={arrow} alt=""/>
         </a>
       </div>
     </div>

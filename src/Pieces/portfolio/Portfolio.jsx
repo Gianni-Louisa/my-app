@@ -28,7 +28,7 @@ export default function Portfolio({menuOpen,setMenuOpen}) {
     },
     {
       id: "html&css",
-      title: "HTML & CSS",
+      title: "HTML/CSS",
     },
     {
       id: "java",

@@ -7,7 +7,13 @@
     border-radius: 15px;
     cursor: pointer;
     transition: all .3s ease;
-
+    overflow: hidden;
+    @include mobile{
+        width: auto;
+        font-size: 90%;
+        border-radius: 9px;
+        padding: 9px;
+    }
     &.active{
         background-color: royalblue;
         color: black;

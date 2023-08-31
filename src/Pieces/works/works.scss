@@ -1,25 +1,43 @@
+@import "../../global.scss";
 .works{
     position: relative;
     display: flex;
     background-color: white;
+   
 
     padding-bottom: 20px;
     justify-content: center;
+    @include mobile{
+        width: 100px;
+        height: auto;
+    }
     h1{
         padding-top: 15px;
-        font-size: 80pt;
+        font-size: 705%;
         position: absolute;
+        font-weight: 30000;
         color: white;
-        &.active{
-            color: red;
+        @include mobile{
+            padding-top: 10%;
+            font-size: 30pt;
         }
+    
+        
+      
     
     }
     h2{
         padding-top: 38%;
-        font-size: 80pt;
+        font-size: 705%;
         position: absolute;
         color: white;
+        @include mobile{
+            padding-top: 20%;
+            font-size: 30pt;
+        }
+      
+        
+        
     }
 
     

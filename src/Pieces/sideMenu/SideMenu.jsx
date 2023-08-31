@@ -9,16 +9,16 @@ export default function sideMenu({menuOpen,setMenuOpen}) {
                     <a href ="#intro">Home</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href ="#portfolio">Portfolio</a>
+                    <a href ="#portfolio">Skills</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href ="#works">Works</a>
+                    <a href ="#works">To Be Continued</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href ="#testimonial">Testimonial</a>
+                    <a href ="#testimonial"></a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href ="#contact">Contact</a>
+                    <a href ="#contact"></a>
                 </li>
             </ul>
         </div>
