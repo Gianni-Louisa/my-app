@@ -1,0 +1,26 @@
+.works{
+    position: relative;
+    display: flex;
+    background-color: white;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    h1{
+        padding-top: 15px;
+        font-size: 80pt;
+        position: absolute;
+        color: white;
+        &.active{
+            color: red;
+        }
+    
+    }
+    h2{
+        padding-top: 38%;
+        font-size: 80pt;
+        position: absolute;
+        color: white;
+    }
+
+    
+}
